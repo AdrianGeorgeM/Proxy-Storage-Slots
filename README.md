@@ -1,13 +1,8 @@
-# Sample Hardhat Project
+# Smart Contract Storage Layout
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
-Try running some of the following tasks:
+Contract storage layout refers to the rules governing how contracts’ storage variables are laid out in long-term memory. Almost all smart contracts have state variables that need to be stored long-term.
 
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat run scripts/deploy.js
 ```
