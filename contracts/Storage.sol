@@ -10,5 +10,7 @@ contract Storage {
     // mapping(uint => uint) public testing; // 0x3 -> 0x3
     //    testing[21] = 77;
     //         testing[44] = 98;
-    constructor() {}
+    constructor() {
+        StorageSlot.getUintSlot(keccak256("adrian")).value = 256;
+    }
 }
