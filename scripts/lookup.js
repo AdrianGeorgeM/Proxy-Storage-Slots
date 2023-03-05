@@ -1,6 +1,6 @@
 const hre = require('hardhat');
 const { keccak256, hexZeroPad } = hre.ethers.utils;
-const address = '  0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9';
+const address = '  0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9';
 //deployed contract address from deploy.js
 // This is a simple script to get the storage of a contract
 async function lookup() {
