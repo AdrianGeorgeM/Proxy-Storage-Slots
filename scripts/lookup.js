@@ -14,7 +14,7 @@ async function lookup() {
 	// console.log(`Key: ${parseInt(key)} Base Slot: ${baseSlot}`);
 	// const slot = keccak256(toUtf8Bytes('adrian'));
 	// const storage = await hre.ethers.provider.getStorageAt(address, slot);
-	// console.log(`Storage at 0x0: ${parseInt(storage)}`); //0x61 is hex for 97
+	console.log(`Storage at 0x0: ${parseInt(storage)}`); //0x61 is hex for 97
 	// // run node to see the storage at 0x61
 }
 
